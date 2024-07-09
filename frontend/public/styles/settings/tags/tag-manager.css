@@ -1,0 +1,32 @@
+.tag-name-heading,
+.tag-item-name {
+    width: 40%;
+}
+
+.tag-journals-heading,
+.tag-item-journals {
+    width: 40%;
+}
+
+.manager-icons-heading#tag,
+.manager-icons-div#tag {
+    width: 20%;
+}
+
+.tag-item-name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.tag-item-name {
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+.tag-item-journals {
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}

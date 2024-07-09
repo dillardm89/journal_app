@@ -1,0 +1,81 @@
+.journal-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    background-color: var(--medium-light);
+    border-radius: 10px;
+}
+
+.journal-list-heading {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-div {
+    width: calc(100% - 82px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.heading-div h2 {
+    margin: 0;
+    align-self: center;
+}
+
+.heading-btn-div {
+    align-self: center;
+}
+
+.clear-search-btn {
+    padding: 2px 5px;
+    background-color: var(--lightest);
+    color: var(--darkest);
+    border-radius: 5px;
+}
+
+.clear-search-btn:hover {
+    background-color: var(--medium-dark);
+    color: var(--lightest)
+}
+
+.journal-list {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.no-journals-div p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.scroller {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: always;
+    height: 100vh;
+    width: 100%;
+}
+
+.scroller li {
+    scroll-snap-align: center;
+}
+
+.journal-list-ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

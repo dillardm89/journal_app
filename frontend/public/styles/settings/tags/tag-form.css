@@ -1,0 +1,22 @@
+.link-form-div {
+    width: 100%;
+    display: flex;
+    gap: 5%;
+}
+
+.link-img-div {
+    width: 25%;
+    align-self: center;
+}
+
+.form-input-div#link {
+    width: 70%;
+    align-self: flex-start;
+}
+
+@media (max-width: 500px) {
+    .link-form-div {
+        display: flex;
+        flex-direction: column;
+    }
+}

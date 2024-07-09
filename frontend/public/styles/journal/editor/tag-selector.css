@@ -1,0 +1,55 @@
+.tag-selector-div {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+}
+
+.tag-selector-btn {
+    padding: 0 0.5rem;
+    min-height: 30px;
+    background-color: var(--lightest);
+    color: var(--darkest);
+    border-radius: 5px;
+}
+
+.tag-selector-btn:hover {
+    background-color: var(--darkest);
+    color: var(--lightest)
+}
+
+.tag-selector-options {
+    z-index: 20;
+    margin-top: -3px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 5px 5px;
+    border: 2px ridge #666666;
+}
+
+.tag-option-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    min-height: 30px;
+    padding: 0;
+    text-align: left;
+    border: none;
+    background-color: var(--lightest);
+    color: var(--darkest);
+}
+
+.tag-option-item:hover {
+    background-color: var(--medium-dark);
+    color: var(--lightest)
+}
+
+.tag-option-checkbox {
+    margin: 6px 0 0 5px;
+}
+
+.tag-option-checkbox {
+    cursor: pointer;
+    opacity: 0.75;
+    accent-color: var(--medium-light);
+}

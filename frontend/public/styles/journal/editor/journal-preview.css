@@ -1,0 +1,55 @@
+.journal-preview-heading {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px solid var(--darkest);
+}
+
+.journal-preview-title {
+    text-align: center;
+    color: var(--medium-light);
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.journal-preview-message {
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.journal-preview-error {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: red;
+}
+
+.journal-preview-buttons {
+    border-top: 2px solid var(--darkest);
+    margin-top: 15px;
+}
+
+.journal-preview-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.journal-preview-scroller {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: always;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.journal-preview-content {
+    padding: 10px;
+    width: 100%;
+}

@@ -1,0 +1,124 @@
+.modal-close-btn,
+.modal-save-btn,
+.modal-select-btn {
+    width: 90px;
+    padding: 0.5rem 1rem;
+    background-color: var(--medium-dark);
+    color: var(--lightest);
+    border: 1px solid var(--darkest);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.modal-delete-btn {
+    text-align: center;
+    width: 90px;
+    padding: 0.5rem 1rem;
+    background-color: lightcoral;
+    color: var(--darkest);
+    border: 1px solid var(--darkest);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.modal-close-btn:hover,
+.modal-select-btn:hover {
+    background-color: var(--medium-light);
+    color: var(--lightest);
+}
+
+.modal-delete-btn:hover {
+    background-color: red;
+    color: var(--lightest);
+}
+
+.modal-save-btn:hover {
+    background-color: lightgreen;
+    color: var(--darkest);
+}
+
+.drawer-close-button {
+    cursor: pointer;
+    color: var(--lightest);
+    padding: 0.25rem;
+    margin: 20px;
+    font-size: 1rem;
+    text-align: center;
+    background: transparent;
+    border: none;
+}
+
+.drawer-close-button:hover,
+.drawer-close-button:active,
+.drawer-close-button:focus {
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: var(--lightest);
+}
+
+.add-tag-btn {
+    text-align: center;
+    padding: 0.25rem 0.5rem;
+    height: 80%;
+    background-color: var(--lightest);
+    color: var(--darkest);
+    border-radius: 5px;
+    align-self: center;
+}
+
+.add-tag-btn:hover {
+    background-color: var(--medium-dark);
+    color: var(--lightest);
+}
+
+.add-journal-btn {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: var(--lightest);
+    color: var(--darkest);
+    border-radius: 5px;
+}
+
+.add-journal-btn {
+    padding: 0.5rem 1.5rem;
+}
+
+.add-journal-btn:hover {
+    background-color: var(--medium-light);
+    border-color: var(--lightest);
+    color: var(--lightest);
+}
+
+.close-viewer-btn {
+    align-self: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--medium-dark);
+    padding: 0.25rem;
+    font-size: 1rem;
+    text-align: center;
+    background: transparent;
+    border: 1px solid var(--medium-dark);
+    border-radius: 5px;
+}
+
+.close-viewer-btn:hover {
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: var(--lightest);
+}
+
+@media (max-width: 700px) {
+    .add-journal-btn {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .add-journal-btn {
+        font-size: 0.7rem;
+    }
+}

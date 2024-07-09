@@ -1,0 +1,36 @@
+.modal-form {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-form form {
+    align-self: center;
+    width: 95%;
+}
+
+.modal-form #label {
+    margin: 0;
+}
+
+.form-input-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.form-input-fields {
+    display: flex;
+    align-self: flex-end;
+    padding: 0.5rem;
+    color: black;
+    gap: 10px;
+}
+
+@media (max-width: 500px) {
+    .form-input-fields {
+        width: 100%;
+    }
+}

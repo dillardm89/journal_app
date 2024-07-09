@@ -1,0 +1,49 @@
+.heading-menu-div {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    height: 37px;
+    min-width: 55px;
+    width: calc(100% / 14);
+}
+
+.heading-toolbar-btn {
+    padding: 0.25rem 0;
+    min-width: 55px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--lightest);
+    color: var(--darkest);
+    border: 1px solid var(--darkest);
+    border-radius: 0;
+}
+
+.heading-menu-btn {
+    padding: 0.25rem 0;
+    min-width: 55px;
+    background-color: var(--lightest);
+    color: var(--darkest);
+    border: 1px solid var(--darkest);
+    border-radius: 0;
+}
+
+.heading-toolbar-btn:hover,
+.heading-toolbar-btn#btn-active-true,
+.heading-menu-btn:hover,
+.heading-menu-btn#btn-active-true {
+    background-color: lightgoldenrodyellow;
+    color: var(--darkest);
+}
+
+.heading-menu-box {
+    z-index: 100;
+    min-width: 55px;
+    width: calc(100% / 18);
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 5px 5px;
+    border: 2px ridge #666666;
+}

@@ -1,0 +1,143 @@
+.journal-editor-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 5px 10px;
+}
+
+.editor-error-div {
+    width: 90%;
+    align-self: center;
+    background-color: lightcoral;
+    padding: 5px;
+    color: black;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.editor-error-div p {
+    margin: 0;
+    text-align: center;
+}
+
+.journal-editor-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.editor-form-div {
+    margin-bottom: 15px;
+}
+
+.editor-form-div .input-field {
+    background-color: var(--lightest);
+}
+
+.editor-form-div .input-field:hover,
+.editor-form-div .input-field:focus {
+    background-color: palegoldenrod;
+}
+
+.editor-form-div .input-label {
+    color: var(--lightest);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.editor-title-div .input-label,
+.editor-tag-div .input-label {
+    min-width: 120px;
+}
+
+.editor-title-div .input-error-div,
+.editor-title-div .input-field,
+.editor-title-div .error-label {
+    width: 100%;
+}
+
+.editor-tag-div {
+    display: flex;
+    gap: 10px;
+}
+
+.editor-tag-div .form-input-fields {
+    width: 80%;
+}
+
+.editor-tag-div .input-error-div,
+.editor-tag-div .input-field,
+.editor-tag-div .error-label {
+    width: 100%;
+}
+
+.rich-text-editor {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text-box-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid var(--darkest);
+    border-radius: 0;
+    background-color: var(--lightest);
+    color: var(--darkest);
+    overflow: hidden;
+}
+
+.toolbar-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0;
+    border: 1px solid var(--darkest);
+    border-radius: 0;
+}
+
+.word-count-div {
+    display: flex;
+    margin: 5px 0 10px 0;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.word-count-div p {
+    margin: 0;
+}
+
+.editor-scroller {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: always;
+    height: 60vh;
+    margin: 5px;
+}
+
+.editor-element-div {
+    scroll-snap-align: none;
+    padding: 0;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.editor-element-div div {
+    width: calc(100% - 15px);
+}
+
+.editor-element-div div:focus-visible {
+    outline: none;
+}
+
+.editor-element-div pre,
+.editor-element-div span {
+    text-align: left;
+    white-space: wrap;
+    margin: 0
+}

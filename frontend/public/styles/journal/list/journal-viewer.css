@@ -1,0 +1,54 @@
+.journal-viewer-heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.journal-viewer-title {
+    width: calc(100% - 40px);
+}
+
+.journal-viewer-title h3 {
+    text-align: center;
+    color: var(--medium-light);
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.journal-viewer-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.journal-viewer-date {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.journal-viewer-date p {
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.journal-scroller {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: always;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.journal-viewer-content {
+    padding: 10px;
+    width: 95%;
+}

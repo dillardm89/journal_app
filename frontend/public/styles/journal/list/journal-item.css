@@ -1,0 +1,125 @@
+.journal-list-item {
+    --list-height: 200px;
+    width: calc(30% - 20px);
+    list-style: none;
+    padding: 10px;
+    background-color: var(--lightest);
+    color: var(--darkest);
+    border-radius: 5px;
+    height: var(--list-height);
+}
+
+.journal-list-item:hover {
+    background-color: whitesmoke;
+}
+
+.journal-details-div {
+    height: calc(var(--list-height) - 25px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.journal-title {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.journal-title h4 {
+    text-align: center;
+    margin: 0;
+    height: 80px;
+}
+
+.journal-date {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.journal-date p {
+    margin: 0;
+    height: 20px;
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.tag-scroller {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: always;
+    height: 100vh;
+    width: 100%;
+}
+
+.tag-scroller li {
+    scroll-snap-align: center;
+}
+
+.journal-tags-ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+}
+
+.journal-tag-item {
+    padding: 2px 6px;
+    font-size: 0.75rem;
+    list-style: none;
+    border-radius: 20px;
+    background-color: var(--medium-dark);
+    color: var(--lightest)
+}
+
+.journal-icons-div {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    height: 20px;
+}
+
+.journal-icons-div img {
+    width: 20px;
+}
+
+.journal-edit-icon:hover {
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+.journal-delete-icon:hover {
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+    .journal-title h4 {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 700px) {
+    .journal-list-item {
+        width: calc(45% - 20px);
+    }
+}
+
+@media (max-width: 500px) {
+    .journal-list-item {
+        --list-height: 150px;
+        width: 95%;
+        height: var(--list-height);
+    }
+
+    .journal-details-div {
+        height: calc(var(--list-height) - 25px);
+    }
+
+    .journal-title h4 {
+        height: 50px;
+    }
+}

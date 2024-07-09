@@ -1,0 +1,30 @@
+.journal-container {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.journal-editor-container {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    background-color: var(--medium-light);
+    border-radius: 10px;
+}
+
+.journal-nav-bar {
+    margin: 2rem 0;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+.add-journal-div {
+    width: 30%;
+    text-align: center;
+}
+
+.search-bar-div {
+    display: flex;
+    width: 70%;
+    gap: 0;
+}

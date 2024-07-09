@@ -1,0 +1,21 @@
+.toolbar-btn {
+    cursor: pointer;
+    padding: 0.25rem 0;
+    min-width: 35px;
+    width: calc(100% / 14);
+    background-color: var(--lightest);
+    color: var(--darkest);
+    border: 1px solid var(--darkest);
+    border-radius: 0;
+    height: 37px;
+}
+
+.toolbar-btn:hover,
+.toolbar-btn#btn-active-true {
+    background-color: lightgoldenrodyellow;
+    color: var(--darkest);
+}
+
+.toolbar-btn-img {
+    width: 25px;
+}
